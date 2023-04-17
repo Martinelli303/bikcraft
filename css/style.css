@@ -12,3 +12,5 @@
 @import "./home/introducao.css";
 
 @import "./home/bicicletas/bicicletas-lista.css";
+
+@import url(./home/Tecnologia/tecnologia.css);

@@ -1,4 +1,3 @@
-
 .font-1-xs {
   font: 600 0.75rem / 1.333 "Poppins", sans-serif;
 }
@@ -17,6 +16,9 @@
 
 .font-1-l {
   font: 400 1.5rem / 1.5 "Poppins", sans-serif;
+}
+.font-1-l-b {
+  font: 600 1.5rem / 1.5 "Poppins", sans-serif;
 }
 
 .font-1-xl {

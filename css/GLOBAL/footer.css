@@ -42,8 +42,9 @@
 .footer-copy {
   grid-column: 1/-1;
   margin-top: 40px;
+  text-align: center;
 }
-
+aa
 @media (max-width: 800px) {
   .footer > img {
     display: none;

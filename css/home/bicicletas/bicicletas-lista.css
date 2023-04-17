@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  width: max-content;
 }
 
 .bicicletas-lista h3::before {
@@ -60,7 +61,7 @@
 }
 
 .bicicletas-lista a:hover h3::after {
-   width: 100%;
+  width: 100%;
 }
 
 .bicicletas-lista a:hover h3::before {
@@ -81,7 +82,7 @@
   .bicicletas-lista img {
     filter: none;
   }
-  .bicicletas-lista h3::after{
+  .bicicletas-lista h3::after {
     display: none;
   }
 }

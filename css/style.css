@@ -23,4 +23,6 @@
 
 @import "./GLOBAL/footer.css";
 
-@import "./termos/termos.css"
+@import "./termos/termos.css";
+
+@import "./home/bicicletas/bicicletas.css";

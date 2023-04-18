@@ -7,7 +7,8 @@
 }
 
 .vantagens-2 {
-  padding: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .vantagens-2 h2 {
@@ -20,11 +21,11 @@
 .vantagens-2-lista ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+
+  gap: 40px 80px;
 }
 
 .vantagens-2-lista img {
-  width: 32px;
   margin-bottom: 8px;
 }
 .vantagens-2-lista li {
@@ -57,6 +58,6 @@
   }
   .vantagens-2-lista img {
     position: absolute;
-    left: -50px;
+    right: 0;
   }
 }

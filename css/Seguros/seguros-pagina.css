@@ -34,7 +34,7 @@
 .vantagens-2-lista li::after {
   content: "";
   display: block;
-  width: 300px;
+  width: 100%;
   height: 2px;
   background: var(--cor-11);
   position: absolute;
@@ -43,4 +43,20 @@
 
 .vantagens-2-lista li:nth-child(n + 4)::after {
   display: none;
+}
+
+@media (max-width: 800px) {
+  .vantagens-2-lista ul {
+    grid-template-columns: 1fr;
+  }
+  .vantagens-2-lista li:nth-child(n + 4)::after {
+    display: block;
+  }
+  .vantagens-2-lista ul {
+    position: relative;
+  }
+  .vantagens-2-lista img {
+    position: absolute;
+    left: -50px;
+  }
 }

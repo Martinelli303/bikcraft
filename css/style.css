@@ -1,6 +1,6 @@
-@import "./GLOBAL/global.css";
+@import "./global/global.css";
 
-@import "./GLOBAL/header.css";
+@import "./global/header.css";
 
 /*utilidades*/
 @import "./utilidades/componentes.css";
@@ -16,15 +16,15 @@
 
 @import "./bicicleta/bicicleta.css";
 
-@import "./home/Tecnologia/tecnologia.css";
+@import "./home/tecnologia/tecnologia.css";
 
-@import "./home/Parceiros/parceiros.css";
+@import "./home/parceiros/parceiros.css";
 
-@import "./home/Depoimento/depoimento.css";
+@import "./home/depoimento/depoimento.css";
 
 @import "./Seguros/seguros.css";
 
-@import "./GLOBAL/footer.css";
+@import "./global/footer.css";
 
 @import "./termos/termos.css";
 

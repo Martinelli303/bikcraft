@@ -167,6 +167,8 @@
 }
 
 .checkbox {
+  display: grid;
+  grid-template-columns: 1fr;
   position: relative;
 }
 
@@ -209,7 +211,6 @@ input[type="checkbox"]:checked + label::after {
 
 .checkbox label a {
   text-decoration: underline;
-  display: inline;
 }
 
 @media (max-width: 1200px) {
@@ -232,8 +233,44 @@ input[type="checkbox"]:checked + label::after {
   }
 }
 
+@media (max-width: 500px) {
+  .checkbox {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .checkbox label::before {
+    position: absolute;
+    top: 30px;
+  }
+  .checkbox label::after {
+    bottom: 4px;
+  }
+}
+
 @media (max-width: 400px) {
   .orcamento-produto {
     grid-template-columns: 1fr;
+  }
+
+  .checkbox label::after {
+    bottom: 52px;
+  }
+}
+
+@media (min-width: 371px) {
+  .checkbox label::after {
+    bottom: 4px;
+  }
+}
+
+@media (min-width: 500px) {
+  .checkbox label::after {
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 300px) {
+  .checkbox label::after {
+    bottom: 100px;
   }
 }

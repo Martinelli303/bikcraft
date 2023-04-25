@@ -69,13 +69,6 @@ galeria.forEach(eventosGaleria);
 
 //Animação
 
-if (window.SimpleSlide) {
-  new SimpleSlide({
-    slide: "principal", // nome do atributo data-slide="principal"
-    auto: true, // se o slide deve passar automaticamente
-    time: 1000, // tempo de transição dos slides
-    pauseOnHover: true, // pausa a transição automática
-  });
+if (window.SimpleAnime) {
+  new SimpleAnime();
 }
-
-

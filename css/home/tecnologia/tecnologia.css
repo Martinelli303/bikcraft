@@ -39,11 +39,13 @@
 }
 .tecnologia-conteudo a {
   text-transform: uppercase;
+ 
 }
 .tecnologia-conteudo .link::after {
   width: 100%;
-  transition: 0.3s;
+
 }
+
 
 .tecnologia-vantagens {
   display: flex;

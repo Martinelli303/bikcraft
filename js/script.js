@@ -49,7 +49,6 @@ perguntas.forEach(eventosPerguntas);
 //Galeria de Bicicletas//
 
 const galeria = document.querySelectorAll(".bicicleta-imagens img");
-console.log(galeria);
 
 const galeriaContainer = document.querySelector(".bicicleta-imagens");
 
@@ -67,3 +66,16 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+//Animação
+
+if (window.SimpleSlide) {
+  new SimpleSlide({
+    slide: "principal", // nome do atributo data-slide="principal"
+    auto: true, // se o slide deve passar automaticamente
+    time: 1000, // tempo de transição dos slides
+    pauseOnHover: true, // pausa a transição automática
+  });
+}
+
+
